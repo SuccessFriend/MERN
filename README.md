@@ -6,11 +6,11 @@ MongoDB, Expressjs, React/Redux, Nodejs
 </p>
 
 <p align="center">
-   <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
+   <a href="https://github.com/Caesar0dev/mern/blob/master/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-green.svg" />
    </a>
-   <a href="https://circleci.com/gh/amazingandyyy/mern">
-      <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
+   <a href="https://circleci.com/gh/Caesar0dev/mern">
+      <img src="https://circleci.com/gh/Caesar0dev/mern.svg?style=svg" />
    </a>
 </p>
 
@@ -20,7 +20,7 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
+$ git clone https://github.com/Caesar0dev/mern.git
 $ yarn # or npm i
 ```
 
@@ -95,12 +95,12 @@ $ npm run deploy:heroku
 ### After creating heroku
 
 if using webpack:
-remember to update the file of [client/webpack.prod.js](https://github.com/amazingandyyy/mern/blob/master/client/webpack.prod.js)
+remember to update the file of [client/webpack.prod.js](https://github.com/Caesar0dev/mern/blob/master/client/webpack.prod.js)
 ```javascript
  'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
 ```
 if using parcel
-remember to update the file of [client/.env.production](https://github.com/amazingandyyy/mern/blob/master/client/.env.production.js)
+remember to update the file of [client/.env.production](https://github.com/Caesar0dev/mern/blob/master/client/.env.production.js)
 ```
  REACT_APP_API_URI=https://your-super-amazing-heroku-app.herokuapp.com
 ```
